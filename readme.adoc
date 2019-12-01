@@ -1,0 +1,49 @@
+= Introduction
+
+We use a superscript (a small number at the top of the line) to represent the mathematical operation called
+_to the power of_. To the power of means repeated multiplication so that 2^5^ means 2.2.2.2.2. Examples:
+
+2^5^ = 2.2.2.2.2 ("two to the power of five" or "two to the five" or "two the the fifth power") + 
+3^6 = 3.3.3.3.3.3 ("three to the power of six" or "two to the six" or "two to the sixth power") +
+
+For the special case where the power is two we use the word _squared_ in English - for the case where the power
+is three, we use the word _cubed_. Examples:
+
+9^2^ = "Nine squared" +
+6^3^ = "Six cubed"
+
+The small superscripted number is called an _index_. The plural of index is _indices_.
+
+== Multiplication of numbers with indices
+
+When we multiply two expressions with indices, we *add* the indices:
+
+2^3^ . 2^3^ = 2^5^ = 32
+
+10^2^ . 10^4^ = 10^6^ = 1 000 000 (one million)
+
+== Negative indices
+
+Each increase in the index is another multiplication:
+
+2^3^ = 2.2.2 +
+2^4^ = 2.2.2.2 +
+2^5^ = 2.2.2.2.2
+
+Consequently, each *decrease* in the index is another *division*:
+
+2^2^ = 2.2 +
+2^1^ = 2 +
+2^0^ = 1 +
+2^-1^ = 1 : 2 +
+2^-2^ = (1 : 2) : 2 (= one quarter) +
+2^-3^ = ((1 : 2) : 2) : 2 (= one eigth) +
+
+We can rewrite the last 3 expressions as
+
+2^-1 = 
+
+latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
+
+
+
