@@ -1,0 +1,82 @@
+:toc:
+:sectnums:
+:toclevels: 5
+:sectnumlevels: 5
+:showcomments:
+:xrefstyle: short
+:icons: font
+:source-highlighter: coderay
+:tick: &#x2714;
+:pound: &#xA3;
+:stem:
+
+= Title
+
+
+stem:[((x-b)(x-c))/ ((a-b)(a-c)) + ((x-c)(x-a))/ ((b-c)(b-a))  + ((x-a)(x-b))/ ((c-a)(c-b)) ]
+
+We'll change this expression so that every term in the denominator has the "alphabetically earliest" value first meaning that we 
+will write (a - b) NOT (b - a) and (a - c) NOT (c - a).
+
+stem:[((x-b)(x-c))/ ((a-b)(a-c)) - ((x-c)(x-a))/ ((b-c)(a-b))  + ((x-a)(x-b))/ ((a-c)(b-c)) ]
+
+== Common denominator
+
+The common denominator is stem:[(a-b)(a-c)(b-c)].
+
+Expanding the first two brackets gives stem:[a^2 - ab - ac + bc]
+
+multiplying by the third bracket in the common denominator gives:
+
+stem:[a^2b - ab^2 - abc + b^2c -a^2c +abc +ac^2 -bc^2]
+
+the abc terms cancel out:
+
+stem:[a^2b - ab^2 -a^2c + ac^2 + b^2c - bc^2]
+
+== Numerator
+
+With the common denominator just calculated, the numerator is
+
+stem:[(x-b)(x-c)(b-c) - (x-a)(x-c)(a-c) + (x-a)(x-b)(a-b)]
+
+== stem:[x^2] terms
+
+the stem:[x^2] terms in the numerator are stem:[(b-c)x^2 - (a-c)x^2 + (a-b)x^2]
+
+WHICH IS ZERO
+
+== stem:[x] terms
+
+the x terms are stem:[-(b+c)(b-c)x - (-(a+c)(a-c))x - (a+b)(a-b)x]
+
+or stem:[(-(b^2 - c^2) - (-(a^2 - c^2)) - (a^2 - b^2))x]
+
+or stem:[(c^2 - b^2 + a^2 - c^2 - a^2 + b^2)]
+
+WHICH IS ZERO!
+
+== Unit terms
+
+The unit terms in the numerator are:
+
+stem:[bc(b - c) - ac(a - c) +ab(a - b)]
+
+OR: stem:[b^2c - bc^2 - a^2c + ac^2 + a^2b -ab^2]
+
+Rearranging this alphabetically:
+
+stem:[a^2b - ab^2 - a^2c + ac^2 + b^2c - bc^2]
+
+This is the same as the denominator, so the entire fraction is always 1.
+
+
+
+
+
+
+
+
+
+
+
